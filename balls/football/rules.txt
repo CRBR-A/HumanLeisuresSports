@@ -1,0 +1,71 @@
+- teams: 
+  - number: 2
+  - color: different for each team
+  - also: referee(s)
+- players:
+  - number: 11 in each team
+  - special: 1 goal keeper
+- duration: 
+  - official: 
+    2x45 minutes (with a short rest in between)
+    - tie breaker, If the score is equal
+    - penalty kicks
+field:
+  - official: 
+    - flat and rectangular
+    - size: between 100x64 and 110x75 meters
+  - contains:
+    - goals
+      - one for each team
+      - placed in the center of the shorter sides of the field
+play:
+  - starting:
+    - both teams on their half of the field
+    - one is given the possession of the ball
+      - usually decided by coin toss
+  - playing:
+    - players move and kick the ball
+      - using their feet or other body parts 
+      - except their arms and hands
+        - except the goal keeper
+          - may touch the ball with his arms and hands, 
+          - but only within the small area near the goal
+  - scoring a point: 
+    - if the ball ends up in one team's goal
+    - the opposite team scores a point
+    - the game is restarted
+  - throw-in :
+    - if the ball leaves the play field on one of the longer sides
+    - the team who's player didn't touch the ball last gets a throw-in: 
+      - one player takes the ball in his hands and throws it to the play field 
+      from the point at which the ball left the field. 
+    - Ignored if the ball can not escape the field (surrounded by walls)
+  - goal kick :
+    - if the ball leaves the play field on one of the goal side
+    - if the ball was last touched by the opposite team of the goal side
+    - the goal keeper gets a kick off near his goal
+  - corner kick :
+    - if the ball leaves the play field on one of the goal side
+    - if the ball was last touched by the team of the goal side
+    - the opposite team gets a kick from the nearest corner of the field
+  - offside: 
+    - if a player is on the opponent's half 
+    - if there is only the goal keeper or not
+    - if this player receive the ball
+    - this player is "offside", stopping the action, 
+    - the opposite team get a kick
+  - dealing with problems (using hands, offense, wasting time...)
+    - a free kick (where the offense happened)
+    - a penalty kick (if near the goal)
+    - a yellow card : warning to a player
+    - a red card (after 1 yellow card) : the player has to leave
+  - endgame:
+    - the team with the more points wins
+    - If the score is equal after the 2 halves
+      - "tie breaker" : adding more time, playing the instant death
+        - If no winner 
+          penalty kicks
+          
+---
+  license: CC0-1.0
+...
